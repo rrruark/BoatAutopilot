@@ -144,6 +144,7 @@ void HomeActuator()
   StopMotor();
   
   current_position = -1;
+  setpoint_position = 42;
 }
 
 int GetMotorCurrent()
